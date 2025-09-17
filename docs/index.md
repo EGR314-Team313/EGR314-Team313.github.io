@@ -18,4 +18,4 @@ Preparation Date: September 17th, 2025
 
 
 ## Table Of Contents
-1.### [Team Organization](second-page.md) 
+### [Team Organization](second-page.md) 
