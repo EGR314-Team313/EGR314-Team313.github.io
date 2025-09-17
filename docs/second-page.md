@@ -1,5 +1,6 @@
 ---
-title: Second Page
+title: Team Organization
 ---
 
-Things to discuss
+## Summary 
+Team Charter:
