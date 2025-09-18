@@ -34,6 +34,10 @@ Team Goals for Development
 ## Unsorted list
 <img width="644" height="690" alt="unsorted" src="https://github.com/user-attachments/assets/17806895-800c-4107-a58e-11815951c013" />
 
+## Groups
+<img width="1013" height="1008" alt="Screenshot 2025-09-17 215445" src="https://github.com/user-attachments/assets/0a7a4d9b-6213-4e35-8da9-4c17096af505" />
+
+
 ## Grouped and Ranked
 <img width="1493" height="1043" alt="Screenshot 2025-09-17 221338" src="https://github.com/user-attachments/assets/fd46785d-8a92-448e-9b2d-0e4a079b83b8" />
 
