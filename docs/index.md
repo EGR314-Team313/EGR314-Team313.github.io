@@ -16,7 +16,7 @@ Team Members
 ### Arizona State University - EGR 314 - Professor Suo  
 Preparation Date: September 17th, 2025
 
-##Background information
+## Background information
 In recent history wildfires have increased in quantity and intensity. These fires happen in remote uninhabited locations far from society. Due to their hard to reach location these fires can quickly become unmanageable if left un attended. Our group wants to create a device to aid in the prevention of these wildfires. Our idea is to create a network of weather stations that can be deployed into remote areas to detect wildfires in their early more manageable stages. These devices will be able to collect and store data on weather conditions like temperature, humidity, wind, and smoke. This will allow the device to act as an early warning system and collect weather data to better understand conditions leading up to wildfires.
 
 Our device will be marketed toward organizations that deal with wildfires as well as remote communities in wildfire hot spots. Our team attended a presentation with Mike Borszich who is a manager with the State of Arizona Department of Forestry and Fire Management. We learned how drones are being used to monitor wildfires that have already been detected. When asking we learned there is not much information on how to predict where wildfires will happen before the start. Our device will be able to help gather information to understand precursors to wildfires better. We will also be able to help remote communities have an early warning system on potential wildfire dangers. These two groups will be our main stakeholders.
