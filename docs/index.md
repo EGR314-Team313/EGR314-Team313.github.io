@@ -26,3 +26,5 @@ Our device will be marketed toward organizations that deal with wildfires as wel
 
 ## Table Of Contents
 ### [Team Organization](second-page.md) 
+### [Design Ideation](Design-Diagram.md) 
+### [Block Diagram](Block-Diagram.md) 
