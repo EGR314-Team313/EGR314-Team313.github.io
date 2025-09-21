@@ -14,3 +14,11 @@ Our team will design from concept to working prototype an embedded system device
 | Daniel Resnick |                            |                             |                            |
 | Sophie Bryant |                            |                             |                            |
 | Tyler Dean|                            |                             |                            |
+
+## Roles & Responsibilities
+| Role             | Duties                                                                                           |
+|------------------|--------------------------------------------------------------------------------------------------|
+| Meeting leader-Member1   | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting |
+| Meeting recorder-Member2 | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned |
+| Assignment leader-Member3| Coordinates the team's work on a given assignment to Canvas before the due date                   |
+| Project monitor-Member4  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
