@@ -40,9 +40,9 @@ Team Goals for Development
 ## Roles & Responsibilities
 | Role             | Duties                                                                                           |
 |------------------|--------------------------------------------------------------------------------------------------|
-| Meeting leader- |Sophie Bryant| Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting |
-| Meeting recorder-|Luke Jeff| Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned |
-| Assignment leader-|Tyler Dean| Coordinates the team's work on a given assignment to Canvas before the due date                   |
+| Meeting leader-Sophie Bryant| Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting |
+| Meeting recorder-Luke Jeffs| Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned |
+| Assignment leader-Tyler Dean | Coordinates the team's work on a given assignment to Canvas before the due date            |
 | Assignment coordinator-Dan Resnick| Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
 
