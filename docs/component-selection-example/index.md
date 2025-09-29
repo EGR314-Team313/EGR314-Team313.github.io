@@ -1,5 +1,5 @@
 ---
-title: Component Selection Example
+title: Component Selection 
 ---
 
 ## Examples
