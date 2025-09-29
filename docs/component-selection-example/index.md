@@ -17,7 +17,7 @@ title: Component Selection
 |                    Placeholder                                             |          placeholder                                      |                                  Placeholder                   |
 |                              Placeholder                                   |                      Placeholder               |                  Placeholder                                   |
 
-**Choice:** Option 2: Placeholder
+**Choice:** Option 1, 74HC595PW-Q100,118
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
