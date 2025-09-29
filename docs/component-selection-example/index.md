@@ -10,16 +10,15 @@ title: Component Selection
 *Table 1: LED Array*
 
 **Shift Register**
-
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-|           <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd" /> <br>74HC595PW-Q100,118 |    placeholder                   |             placeholder        |                                                             
+| **Solution**                              | **Pros**                                        | **Cons**                                      |
+| ---------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------- |
+|           <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd" /> <br>74HC595PW-Q100,118 |-rated for high temperature<br>-inexpensive <br> -gull-wing leads|  placeholder
 |                    Placeholder                                             |          placeholder                                      |                                  Placeholder                   |
 |                              Placeholder                                   |                      Placeholder               |                  Placeholder                                   |
 
 **Choice:** Option 1, 74HC595PW-Q100,118
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** This choice has a significant number in stock at a low price, a very clear datasheet, and a comes in a package I can reliably solder with confidence.
 
 ### Style 2
 
