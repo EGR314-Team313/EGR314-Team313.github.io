@@ -32,3 +32,17 @@ Solution 2 - BME280
 
 **Rationale:**  
 The BME280 sensor is the best choice because it can measure differenet types of data. Additonaly, it outputs compensated data directly so there is no need for complex math. Also it has a low power draw and lots of community suport. It is accurate and sufficient for altitute tracking. 
+
+### **Power: Tyler Dean**
+
+| Solution | Pros | Cons |
+|----------|----------|----------|
+| ![Choice](https://github.com/user-attachments/assets/5b31ec1c-a868-4170-8197-c2001e156be5) <br> Solution 1<br> LM2575D2T-3.3R4G<br> Cost: $2.16 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688)<br>| - Fixed 3.3v Output<br>- Familiar with this Regulator (used in class)<br>- High Efficiency | -Switching can cause extra noise <br>- Needs a Stable 5V connection |
+|![choice2](https://github.com/user-attachments/assets/cb17d48d-3db7-4344-b318-6398eb5eba27) <br> Solution 2<br> LM2576-3.3WU<br> Cost: $2.16 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/microchip-technology/LM2576-3-3WU/1027681)<br> | -  3.3 fixed output voltage | - 3A Output may be too high|
+| ![choice3](https://github.com/user-attachments/assets/076f9ec2-722e-45cd-b529-15c6b60a2542) <br> Solution 3<br> NCP565MN33T2G<br> Cost: $0.89 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/NCP565MN33T2G/1792550)<br> | - Fixed 3.3V Output | - Very Difficult soldering<br>- Obsolete in digikey|
+
+**Choice:**  
+Solution 1 - LM2575D2T-3.3R4G
+
+**Rationale:**  
+The LM2575D2T-3.3R4G Is the surface mount version of the regulator we used in our class that has a fixed output voltage of 3.3V. Having familiarity is one main reason for choosing this component as we already know the layout to make this work. The second reason is this component is fixed at 3.3V which is enough for all our components and the max current is 1Amp.
