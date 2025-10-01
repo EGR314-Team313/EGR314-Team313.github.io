@@ -46,3 +46,17 @@ Solution 1 - LM2575D2T-3.3R4G
 
 **Rationale:**  
 The LM2575D2T-3.3R4G Is the surface mount version of the regulator we used in our class that has a fixed output voltage of 3.3V. Having familiarity is one main reason for choosing this component as we already know the layout to make this work. The second reason is this component is fixed at 3.3V which is enough for all our components and the max current is 1Amp.
+
+### **Microcontroller: Tyler Dean**
+
+| Solution | Pros | Cons |
+|----------|----------|----------|
+|![noant](https://github.com/user-attachments/assets/f1cc1a81-dc5e-4fa8-97d6-933bec4e91a3) <br> Solution 1<br> ESP32-S3-WROOM-1U-N4<br> Cost: $5.06 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N4/16162640)<br>| - Allows for a high range antenna to be added.<br>- Familiar with this Microcontroller (used in class) | -Requires an antenna attachment for wireless communication needs to be set up.|
+| ![antena](https://github.com/user-attachments/assets/0073decd-7d95-46fe-bf84-48cefcca1279) <br> Solution 2<br> ESP32-S3-WROOM-1-N4<br> Cost: $5.06 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)<br> | -  Built in antenna already configured into package | - Antenna does not have a high range of communication.||
+
+
+**Choice:**  
+Choice 2  ESP32-S3-WROOM-1-N4
+
+**Rationale:**  
+From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is already built in. This allows for us to add communication as a backup subsystem for our group. By choosing this option we have to be sure to add a keepout zone above our chip to allow the antenna to work.
