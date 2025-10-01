@@ -806,6 +806,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#microcontroller-tyler-dean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller: Tyler Dean
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -902,6 +911,32 @@ The BME280 sensor is the best choice because it can measure differenet types of 
 Solution 1 - LM2575D2T-3.3R4G</p>
 <p><strong>Rationale:</strong><br>
 The LM2575D2T-3.3R4G Is the surface mount version of the regulator we used in our class that has a fixed output voltage of 3.3V. Having familiarity is one main reason for choosing this component as we already know the layout to make this work. The second reason is this component is fixed at 3.3V which is enough for all our components and the max current is 1Amp.</p>
+<h3 id="microcontroller-tyler-dean"><strong>Microcontroller: Tyler Dean</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/f1cc1a81-dc5e-4fa8-97d6-933bec4e91a3" data-desc-position="bottom"><img alt="noant" src="https://github.com/user-attachments/assets/f1cc1a81-dc5e-4fa8-97d6-933bec4e91a3"></a> <br> Solution 1<br> ESP32-S3-WROOM-1U-N4<br> Cost: $5.06 Per Unit<br> <a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N4/16162640">Link to Product</a><br></td>
+<td>- Allows for a high range antenna to be added.<br>- Familiar with this Microcontroller (used in class)</td>
+<td>-Requires an antenna attachment for wireless communication needs to be set up.</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/0073decd-7d95-46fe-bf84-48cefcca1279" data-desc-position="bottom"><img alt="antena" src="https://github.com/user-attachments/assets/0073decd-7d95-46fe-bf84-48cefcca1279"></a> <br> Solution 2<br> ESP32-S3-WROOM-1-N4<br> Cost: $5.06 Per Unit<br> <a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">Link to Product</a><br></td>
+<td>-  Built in antenna already configured into package</td>
+<td>- Antenna does not have a high range of communication.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong><br>
+Choice 2  ESP32-S3-WROOM-1-N4</p>
+<p><strong>Rationale:</strong><br>
+From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is already built in. This allows for us to add communication as a backup subsystem for our group. By choosing this option we have to be sure to add a keepout zone above our chip to allow the antenna to work.</p>
 
 
 
