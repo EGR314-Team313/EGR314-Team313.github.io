@@ -24,10 +24,11 @@ title: Component Selection
 | Solution | Pros | Cons |
 |----------|----------|----------|
 | ![KP254XTMA2](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/010/936/430/KP200_sml.jpg)<br> Solution 1<br> KP254XTMA2<br> Cost: $5.41 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/infineon-technologies/KP254XTMA2/6021601)<br>| - Very high accuracy to (± 1.5 kPa)<br>- Reputable manufactuer<br>- Uses SPI communication | - Expensive<br>- Needs a Stable 5V connection <br>- Succeptable to noise|
-| ![BME280](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/348/158/MFG_BME280_sml.jpg)<br> Solution 2<br> BME280<br> Cost: $4.03 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306)<br> | - Has a combined pressure and humidity sensor<br>- 3.3 output voltage<br>- Made specifically for home weather station use | - smaller footprinnt<br>- No true altitude output<br>- Limited sampling rate |
+| ![BME280](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/348/158/MFG_BME280_sml.jpg)<br> Solution 2<br> BME280<br> Cost: $4.03 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306)<br> | - Has a combined pressure and humidity sensor<br>- 3.3 output voltage<br>- Made specifically for home weather station use | - smaller footprinnt<br>- No true altitude output<br>- Limited sampling rate|
+| ![MPL115A2ST1](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/227/878/MFG_MPL115A2ST1_sml%28200x200%29.jpg)<br> Solution 3<br> MPL115A2ST1<br> Cost: $4.75 Per Unit<br> [Link to Product](https://www.digikey.com/en/products/detail/nxp-usa-inc/MPL115A2ST1/16538791)<br> | - Low power consumption<br>- Fast conversion time at 3 m/s<br>- Supports both I2C and SPI | - Limited resolution and range<br>- No plug and play pressure value<br>- No continuos sampling mode|
 
 **Choice:**  
-Solution 2 - 
+Solution 2 - BME280
 
 **Rationale:**  
-
+The BME280 sensor is the best choice because it can measure differenet types of data. Additonaly, it outputs compensated data directly so there is no need for complex math. Also it has a low power draw and lots of community suport. It is accurate and sufficient for altitute tracking. 
