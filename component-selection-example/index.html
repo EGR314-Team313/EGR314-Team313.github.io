@@ -770,6 +770,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -778,16 +780,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#subsystems" class="md-nav__link">
-    <span class="md-ellipsis">
-      Subsystems
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Subsystems">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#luke-jeffs" class="md-nav__link">
     <span class="md-ellipsis">
       Luke Jeffs
@@ -795,18 +787,13 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#pressure-sensor-dan-resnick" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Pressure Sensor: Dan Resnick
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -833,9 +820,7 @@
   
 
 
-  <h1>Component Selection</h1>
-
-<h2 id="subsystems">Subsystems</h2>
+<h1 id="subsystems">Subsystems</h1>
 <h3 id="luke-jeffs">Luke Jeffs</h3>
 <p><em>Table 1: LED Array</em></p>
 <p><strong>Shift Register</strong>
@@ -846,75 +831,31 @@
 |     <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04" data-desc-position="bottom"><img width="231" height="202" alt="image" src="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04"></a> <br> MIC5891YWM-TR   |   -Highest drain current per pin  <br> -could drive more LEDs reliably   | -Most expensive <br>-Highest supply voltage  </p>
 <p><strong>Choice:</strong> Option 1, 74HC595PW-Q100,118</p>
 <p><strong>Rationale:</strong> This choice has a significant number in stock at a low price, a very clear datasheet, and a comes in a package I can reliably solder with confidence. Many can be purchased for testing and the simplicity allows for the initial goals to be reached and further development to be explored.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>External Clock Module</strong></p>
-<ol>
-<li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image1.png" data-desc-position="bottom"><img alt="" src="image1.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
+<h3 id="pressure-sensor-dan-resnick"><strong>Pressure Sensor: Dan Resnick</strong></h3>
 <table>
 <thead>
 <tr>
+<th>Solution</th>
 <th>Pros</th>
 <th>Cons</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/010/936/430/KP200_sml.jpg" data-desc-position="bottom"><img alt="KP254XTMA2" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/010/936/430/KP200_sml.jpg"></a><br> Solution 1<br> KP254XTMA2<br> Cost: $5.41 Per Unit<br> <a href="https://www.digikey.com/en/products/detail/infineon-technologies/KP254XTMA2/6021601">Link to Product</a><br></td>
+<td>- Very high accuracy to (± 1.5 kPa)<br>- Reputable manufactuer<br>- Uses SPI communication</td>
+<td>- Expensive<br>- Needs a Stable 5V connection <br>- Succeptable to noise</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
-</tr>
-<tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/348/158/MFG_BME280_sml.jpg" data-desc-position="bottom"><img alt="BME280" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/348/158/MFG_BME280_sml.jpg"></a><br> Solution 2<br> BME280<br> Cost: $4.03 Per Unit<br> <a href="https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306">Link to Product</a><br></td>
+<td>- Has a combined pressure and humidity sensor<br>- 3.3 output voltage<br>- Made specifically for home weather station use</td>
+<td>- smaller footprinnt<br>- No true altitude output<br>- Limited sampling rate</td>
 </tr>
 </tbody>
 </table>
-</li>
-<li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image3.png" data-desc-position="bottom"><img alt="" src="image3.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
-</tr>
-<tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
-</tr>
-<tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong><br>
+Solution 2 - </p>
+<p><strong>Rationale:</strong>  </p>
 
 
 
