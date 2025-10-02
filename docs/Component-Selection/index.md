@@ -72,3 +72,8 @@ From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is a
 
 ![Screenshot 2025-03-02 160459](https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6)
 
+### Bill of Materials
+
+<img width="2363" height="1220" alt="image" src="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582" />
+
+[Team 313 Bill of Materials.xlsx - Sheet1.pdf](https://github.com/user-attachments/files/22654392/Team.313.Bill.of.Materials.xlsx.-.Sheet1.pdf)
