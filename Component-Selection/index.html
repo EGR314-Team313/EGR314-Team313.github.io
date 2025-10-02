@@ -780,9 +780,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#luke-jeffs" class="md-nav__link">
+  <a href="#shift-register-luke-jeffs" class="md-nav__link">
     <span class="md-ellipsis">
-      Luke Jeffs
+      Shift Register: Luke Jeffs
     </span>
   </a>
   
@@ -839,14 +839,33 @@
 
 
 <h1 id="subsystems">Subsystems</h1>
-<h3 id="luke-jeffs">Luke Jeffs</h3>
-<p><em>Table 1: LED Array</em></p>
-<p><strong>Shift Register</strong>
-| Solution          | Pros         | Cons      |
-| ---------- | ------ | ---------- |
-|<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd"></a> <br>74HC595PW-Q100,118 | -rated for high temperature<br>-inexpensive <br> -gull-wing leads |  -lower drive current <br> |
-|<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/6223c4b3-906d-4393-9681-ddfb51335681" data-desc-position="bottom"><img width="225" height="212" alt="image" src="https://github.com/user-attachments/assets/6223c4b3-906d-4393-9681-ddfb51335681"></a> <br> TPIC6B595DWR    | -Higher potential drain current <br> -high temperature rating   |   -Largest Footprint <br> -more expensive |
-|<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04" data-desc-position="bottom"><img width="231" height="202" alt="image" src="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04"></a> <br> MIC5891YWM-TR   | -Highest drain current per pin  <br> -could drive more LEDs reliably | -Most expensive <br>-Highest supply voltage |</p>
+<h3 id="shift-register-luke-jeffs"><strong>Shift Register: Luke Jeffs</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd"></a> <br> 74HC595PW-Q100,118</td>
+<td>-rated for high temperature<br>-inexpensive <br> -gull-wing leads</td>
+<td>-lower drive current <br></td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/6223c4b3-906d-4393-9681-ddfb51335681" data-desc-position="bottom"><img width="225" height="212" alt="image" src="https://github.com/user-attachments/assets/6223c4b3-906d-4393-9681-ddfb51335681"></a> <br> TPIC6B595DWR</td>
+<td>-Higher potential drain current <br> -high temperature rating</td>
+<td>-Largest Footprint <br> -more expensive</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04" data-desc-position="bottom"><img width="231" height="202" alt="image" src="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04"></a> <br> MIC5891YWM-TR</td>
+<td>-Highest drain current per pin  <br> -could drive more LEDs reliably</td>
+<td>-Most expensive <br>-Highest supply voltage</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Choice:</strong> Option 1, 74HC595PW-Q100,118</p>
 <p><strong>Rationale:</strong> This choice has a significant number in stock at a low price, a very clear datasheet, and a comes in a package I can reliably solder with confidence. Many can be purchased for testing and the simplicity allows for the initial goals to be reached and further development to be explored.</p>
 <h3 id="pressure-sensor-dan-resnick"><strong>Pressure Sensor: Dan Resnick</strong></h3>
