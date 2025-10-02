@@ -11,9 +11,9 @@ title: Component Selection
 **Shift Register**
 | **Solution**                              | **Pros**                                        | **Cons**                                      |
 | ---------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------- |
-|     <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd" /> <br>74HC595PW-Q100,118 |-rated for high temperature<br>-inexpensive <br> -gull-wing leads|  -lower drive current <br> 
-|     <img width="225" height="212" alt="image" src="https://github.com/user-attachments/assets/6223c4b3-906d-4393-9681-ddfb51335681" /> <br> TPIC6B595DWR    |   -Higher potential drain current <br> -high temperature rating   |   -Largest Footprint <br> -more expensive
-|     <img width="231" height="202" alt="image" src="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04" /> <br> MIC5891YWM-TR   |   -Highest drain current per pin  <br> -could drive more LEDs reliably   | -Most expensive <br>-Highest supply voltage  
+|     <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2c107a6b-1226-4e08-8c50-b11ba5555ddd" /> <br>74HC595PW-Q100,118 |-rated for high temperature<br>-inexpensive <br> -gull-wing leads|  -lower drive current <br> |
+|     <img width="225" height="212" alt="image" src="https://github.com/user-attachments/assets/6223c4b3-906d-4393-9681-ddfb51335681" /> <br> TPIC6B595DWR    |   -Higher potential drain current <br> -high temperature rating   |   -Largest Footprint <br> -more expensive |
+|     <img width="231" height="202" alt="image" src="https://github.com/user-attachments/assets/e52301ae-f8c1-43e1-b7f3-2ecdd64cae04" /> <br> MIC5891YWM-TR   |   -Highest drain current per pin  <br> -could drive more LEDs reliably   | -Most expensive <br>-Highest supply voltage  |
 
 **Choice:** Option 1, 74HC595PW-Q100,118
 
