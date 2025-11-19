@@ -31,7 +31,7 @@ Our device will be marketed toward organizations that deal with wildfires as wel
 
 <img width="581" height="582" alt="image" src="https://github.com/user-attachments/assets/f2b22b8c-c4d0-46ff-a7e5-cc1e0fd41d0c" />
 
-The concept sketch satisfies the needs of wildfire prevention in many ways. THere are multiple sensors to detect smoke and the instensity of heat. The smoke detector is attacehd to the top of the fire monitiring station to ensure that it can measure levels properly if there is a fire. All other sensors are enclosed in a box that is meant to withstand the elements. It is also enclosed to keep out animals. There will be a cage on the top to also asssit with this. Vents will be added on the side to keep out moisture. The box will be on the ground to get a more accurate reading of smoke if there is a wildfire. 
+The concept sketch satisfies the needs of wildfire prevention in many ways. THere are multiple sensors to detect smoke and the instensity of heat. The smoke detector is attached to the top of the fire monitiring station to ensure that it can measure levels properly if there is a fire. All other sensors are enclosed in a box that is meant to withstand the elements. It is also enclosed to keep out animals. There will be a cage on the top to also assist with this. Vents will be added on the side to keep out moisture. The box will be on the ground to get a more accurate reading of smoke if there is a wildfire. 
 
 ## Functionality
 
@@ -41,7 +41,7 @@ There will be 4 main areas of functionlity split across each member of the team.
 3. Communication
 4. Microcontroller
 
-In this early stage we have not picked our componets yet or decided who on the team is designing each area. Durability is huge with our proposed design because it will be outside and exposed to the elements. 
+In this early stage we have not picked our components yet or decided who on the team is designing each area. Durability is huge with our proposed design because it will be outside and exposed to the elements. 
 
 ## Presentation Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajgPYowXUoI?si=FGtVEHt6QkkVXJUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
