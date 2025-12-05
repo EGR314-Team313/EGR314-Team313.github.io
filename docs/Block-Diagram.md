@@ -1,6 +1,6 @@
 ---
 title: Block Diagram
 ---
-<img width="1419" height="1302" alt="image" src="https://github.com/user-attachments/assets/14ff28d2-6cc0-4725-9424-99dbb52a2c16" />
+<img width="1354" height="1248" alt="image" src="https://github.com/user-attachments/assets/ca81645f-36e9-49a5-8389-7dc787cb8b7e" />
 
-[PDF of Block Diagram](https://github.com/user-attachments/files/22527942/MPL115A2_presssuresensordatasheet.pdf)
+[PDF of Block Diagram](https://github.com/user-attachments/files/23953043/Team313_BlockDiagramV2.pdf)
