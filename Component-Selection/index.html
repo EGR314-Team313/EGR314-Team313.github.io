@@ -1002,6 +1002,42 @@ From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is a
 </tbody>
 </table>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6" data-desc-position="bottom"><img alt="Screenshot 2025-03-02 160459" src="https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6"></a></p>
+<table>
+<thead>
+<tr>
+<th>Subsystem</th>
+<th>Part Number</th>
+<th>Summary of Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature Sensor</td>
+<td>LM92CIMX</td>
+<td>Best accuracy (±0.33), easier-to-solder joints, higher temperature range, and overall reliability despite slightly higher cost.</td>
+</tr>
+<tr>
+<td>Shift Register</td>
+<td>74HC595PW-Q100,118</td>
+<td>Large stock availability, low cost, clear documentation, and comes in a package that is easy and reliable to solder. Supports simple testing and future expansion.</td>
+</tr>
+<tr>
+<td>Environmental Sensor (Temp/Pressure/Humidity)</td>
+<td>BME280</td>
+<td>Measures multiple parameters, outputs compensated data (reduces math/processing), low power consumption, strong community support, and good accuracy for altitude tracking.</td>
+</tr>
+<tr>
+<td>Voltage Regulator</td>
+<td>LM2575D2T-3.3R4G</td>
+<td>Familiar, previously used in class, fixed 3.3 V output suitable for all components, supports up to 1 A, and offers reliable surface-mount implementation.</td>
+</tr>
+<tr>
+<td>Microcontroller</td>
+<td>ESP32-S3-WROOM-1-N4</td>
+<td>Built-in antenna simplifies wireless subsystem, enables communication backup features, good performance, and requires only a PCB keep-out zone for proper RF operation.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="bill-of-materials">Bill of Materials</h3>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582" data-desc-position="bottom"><img width="2363" height="1220" alt="image" src="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582"></a></p>
 <p><a href="https://github.com/user-attachments/files/22654392/Team.313.Bill.of.Materials.xlsx.-.Sheet1.pdf">Team 313 Bill of Materials.xlsx - Sheet1.pdf</a></p>
