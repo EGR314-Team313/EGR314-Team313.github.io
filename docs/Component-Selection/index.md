@@ -72,6 +72,14 @@ From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is a
 
 ![Screenshot 2025-03-02 160459](https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6)
 
+| Subsystem | Part Number | Summary of Rationale |
+| -------- | ---- | ---- |
+| Temperature Sensor | LM92CIMX | Best accuracy (±0.33), easier-to-solder joints, higher temperature range, and overall reliability despite slightly higher cost. |
+| Shift Register | 74HC595PW-Q100,118 | Large stock availability, low cost, clear documentation, and comes in a package that is easy and reliable to solder. Supports simple testing and future expansion. |
+| Environmental Sensor (Temp/Pressure/Humidity) | BME280 | Measures multiple parameters, outputs compensated data (reduces math/processing), low power consumption, strong community support, and good accuracy for altitude tracking. |
+| Voltage Regulator | LM2575D2T-3.3R4G | Familiar, previously used in class, fixed 3.3 V output suitable for all components, supports up to 1 A, and offers reliable surface-mount implementation. |
+| Microcontroller | ESP32-S3-WROOM-1-N4 | Built-in antenna simplifies wireless subsystem, enables communication backup features, good performance, and requires only a PCB keep-out zone for proper RF operation. |
+
 ### Bill of Materials
 
 <img width="2363" height="1220" alt="image" src="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582" />
