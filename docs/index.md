@@ -6,9 +6,7 @@ tags:
 - tag2
 ---
 
-## <div style="padding:12px; border-left:4px solid #E91E63; background:#ffe6f0;">
-Welcome to Team 313’s project page!
-</div>
+## <span style="color:#E91E63; font-weight:700;">Team 313</span>
 
 ### <span style="color:#E91E63; font-weight:700;">Team Members</span>
 
@@ -30,7 +28,7 @@ Our project focuses on creating a network of remote weather-monitoring devices t
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
 
-## Table Of Contents
+## <span style="color:#E91E63; font-weight:700;">Table of Contents</span>
 ### [Team Organization](second-page.md) 
 ### [Design Ideation](Design-Diagram.md) 
 ### [Block Diagram](Block-Diagram.md) 
