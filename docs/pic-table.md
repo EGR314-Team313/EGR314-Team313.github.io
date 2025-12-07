@@ -2,7 +2,7 @@
 title: PIC Table
 ---
 
-| ESP Info                                      | Answer | Help                                                                                                      |
+| <span style="color:#E91E63;">ESP Info</span>                                      | <span style="color:#E91E63;">Answer</span> | <span style="color:#E91E63;">Help</span>                                     |
 | --------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
 | Model                                         | ?      | Include the entire part number (leave off any letters at the end that specify the package type)           |
 | Product Page URL                              | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
@@ -21,8 +21,9 @@ title: PIC Table
 | Works with MPLabX?                            | ?      | Required.  See [Microchip Development Tools](https://www.microchip.com/development-tools)                 |
 | Works with Microchip Code Configurator?       | ?      | Can be validated in MPLabX.  Screenshot required.                                                         |
 
+<hr style="border: 1px solid #E91E63;">
 
-| Module | # Available | Needed | Associated Pins (or * for any) |
+| <span style="color:#E91E63;">Module</span> | <span style="color:#E91E63;"># Available</span> | <span style="color:#E91E63;">Needed</span> | <span style="color:#E91E63;">Associated Pins (or * for any)</span> |
 | ---------- | ----------- | ------ | ------------------------------ |
 | GPIO       | ?           | ?      | ?                              |
 | ADC        | ?           | ?      | ?                              |
