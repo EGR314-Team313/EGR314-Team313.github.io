@@ -13,7 +13,7 @@
 
 <hr style="border: 1px solid #E91E63;">
 
-## <h2 style="color:#E91E63;">Top 5 Lessons Learned</h2>
+## <h2 style="color:#E91E63;">Top 5 Recommendations for Future Students</h2>
 
 1. Start learning basic embedded programming skills. Especially Arduino or ESP32 development, because having a foundation in microcontroller coding will make the project workload much easier to manage.
 2. Familiarize yourself with reading electronic component datasheets early, since understanding pinouts, voltage requirements, and communication protocols becomes essential for selecting parts and designing your schematics.
