@@ -881,14 +881,21 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#subsystems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystems
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#shift-register-luke-jeffs" class="md-nav__link">
@@ -967,14 +974,16 @@
   
 
 
-<h1 id="subsystems">Subsystems</h1>
-<h3 id="shift-register-luke-jeffs"><strong>Shift Register: Luke Jeffs</strong></h3>
+  <h1>Component Selection</h1>
+
+<h2 id="subsystems"><span style="color:#E91E63; font-weight:700;">Subsystems</span></h2>
+<h2 id="shift-register-luke-jeffs"><span style="color:#E91E63; font-weight:700;">Shift Register: Luke Jeffs</span></h2>
 <table>
 <thead>
 <tr>
-<th>Solution</th>
-<th>Pros</th>
-<th>Cons</th>
+<th><span style="color:#E91E63;">Solution</span></th>
+<th><span style="color:#E91E63;">Pros</span></th>
+<th><span style="color:#E91E63;">Cons</span></th>
 </tr>
 </thead>
 <tbody>
@@ -997,7 +1006,9 @@
 </table>
 <p><strong>Choice:</strong> Option 1, 74HC595PW-Q100,118</p>
 <p><strong>Rationale:</strong> This choice has a significant number in stock at a low price, a very clear datasheet, and a comes in a package I can reliably solder with confidence. Many can be purchased for testing and the simplicity allows for the initial goals to be reached and further development to be explored.</p>
-<h3 id="pressure-sensor-dan-resnick"><strong>Pressure Sensor: Dan Resnick</strong></h3>
+<hr style="border: 1px solid #E91E63;">
+
+<h2 id="pressure-sensor-dan-resnick"><span style="color:#E91E63; font-weight:700;">Pressure Sensor: Dan Resnick</span></h2>
 <table>
 <thead>
 <tr>
@@ -1028,13 +1039,15 @@
 Solution 2 - BME280</p>
 <p><strong>Rationale:</strong><br>
 The BME280 sensor is the best choice because it can measure differenet types of data. Additonaly, it outputs compensated data directly so there is no need for complex math. Also it has a low power draw and lots of community suport. It is accurate and sufficient for altitute tracking. </p>
-<h3 id="power-tyler-dean"><strong>Power: Tyler Dean</strong></h3>
+<hr style="border: 1px solid #E91E63;">
+
+<h2 id="power-tyler-dean"><span style="color:#E91E63; font-weight:700;">Power: Tyler Dean</span></h2>
 <table>
 <thead>
 <tr>
-<th>Solution</th>
-<th>Pros</th>
-<th>Cons</th>
+<th><span style="color:#E91E63;">Solution</span></th>
+<th><span style="color:#E91E63;">Pros</span></th>
+<th><span style="color:#E91E63;">Cons</span></th>
 </tr>
 </thead>
 <tbody>
@@ -1059,13 +1072,15 @@ The BME280 sensor is the best choice because it can measure differenet types of 
 Solution 1 - LM2575D2T-3.3R4G</p>
 <p><strong>Rationale:</strong><br>
 The LM2575D2T-3.3R4G Is the surface mount version of the regulator we used in our class that has a fixed output voltage of 3.3V. Having familiarity is one main reason for choosing this component as we already know the layout to make this work. The second reason is this component is fixed at 3.3V which is enough for all our components and the max current is 1Amp.</p>
-<h3 id="microcontroller-tyler-dean"><strong>Microcontroller: Tyler Dean</strong></h3>
+<hr style="border: 1px solid #E91E63;">
+
+<h2 id="microcontroller-tyler-dean"><span style="color:#E91E63; font-weight:700;">Microcontroller: Tyler Dean</span></h2>
 <table>
 <thead>
 <tr>
-<th>Solution</th>
-<th>Pros</th>
-<th>Cons</th>
+<th><span style="color:#E91E63;">Solution</span></th>
+<th><span style="color:#E91E63;">Pros</span></th>
+<th><span style="color:#E91E63;">Cons</span></th>
 </tr>
 </thead>
 <tbody>
@@ -1085,13 +1100,15 @@ The LM2575D2T-3.3R4G Is the surface mount version of the regulator we used in ou
 Choice 2  ESP32-S3-WROOM-1-N4</p>
 <p><strong>Rationale:</strong><br>
 From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is already built in. This allows for us to add communication as a backup subsystem for our group. By choosing this option we have to be sure to add a keepout zone above our chip to allow the antenna to work.</p>
-<h3 id="temperature-sensor-sophie-bryant"><strong>Temperature Sensor: Sophie Bryant</strong></h3>
+<hr style="border: 1px solid #E91E63;">
+
+<h2 id="temperature-sensor-sophie-bryant"><span style="color:#E91E63; font-weight:700;">Temperature Sensor: Sophie Bryant</span></h2>
 <table>
 <thead>
 <tr>
-<th>Solution</th>
-<th>Pros</th>
-<th>Cons</th>
+<th><span style="color:#E91E63;">Solution</span></th>
+<th><span style="color:#E91E63;">Pros</span></th>
+<th><span style="color:#E91E63;">Cons</span></th>
 </tr>
 </thead>
 <tbody>
@@ -1113,12 +1130,14 @@ From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is a
 </tbody>
 </table>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6" data-desc-position="bottom"><img alt="Screenshot 2025-03-02 160459" src="https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6"></a></p>
+<hr style="border: 1px solid #E91E63;">
+
 <table>
 <thead>
 <tr>
-<th>Subsystem</th>
-<th>Part Number</th>
-<th>Summary of Rationale</th>
+<th><span style="color:#E91E63;">Subsystem</span></th>
+<th><span style="color:#E91E63;">Part Number</span></th>
+<th><span style="color:#E91E63;">Summary of Rationale</span></th>
 </tr>
 </thead>
 <tbody>
@@ -1149,9 +1168,13 @@ From our two options I choose the ESP32-S3-WROOM-1-N4 with the antenna that is a
 </tr>
 </tbody>
 </table>
+<hr style="border: 1px solid #E91E63;">
+
 <p>Our decision-making process for this section focused on aligning each component with the product’s functional requirements, constraints, and long-term reliability. We compared multiple options for every subsystem by examining accuracy, power consumption, availability, solderability, cost, and ease of PCB integration. Components that introduced unnecessary complexity, increased design risk, or did not fit the power and communication architecture were eliminated early. The final selections represent the options that delivered the best balance of performance, manufacturability, and system compatibility while still supporting future scalability and testing.</p>
 <p>Each chosen component directly meets or exceeds the needs of the product. The temperature sensor (LM92CMX) provides the highest accuracy and the easiest solder-joint configuration, ensuring dependable thermal readings. The 74HC595PW-Q100,118 shift register fulfills the requirement for expanded digital outputs at a low cost with minimal design overhead. The BME280 offers reliable multi-parameter environmental data with compensated outputs, reducing the need for complex math while enabling altitude and climate tracking. The LM2575D2T-3.3R4G regulator provides a stable 3.3 V supply and sufficient current capacity for all subsystems, supported by prior familiarity that reduces layout errors. Lastly, the ESP32-S3-WROOM-1-N4 meets the processing and wireless communication requirements with its integrated antenna and strong community support. These components ensure the final product is accurate, efficient, manufacturable, and aligned with all defined system requirements.</p>
-<h3 id="bill-of-materials">Bill of Materials</h3>
+<hr style="border: 1px solid #E91E63;">
+
+<h2 id="bill-of-materials"><span style="color:#E91E63; font-weight:700;">Bill of Materials</span></h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582" data-desc-position="bottom"><img width="2363" height="1220" alt="image" src="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582"></a></p>
 <p><a href="https://github.com/user-attachments/files/22654392/Team.313.Bill.of.Materials.xlsx.-.Sheet1.pdf">Team 313 Bill of Materials.xlsx - Sheet1.pdf</a></p>
 <p>We used the power budget to estimate our system’s total current draw by listing every active component, pulling its maximum current from the datasheet, and multiplying it by the quantity shown in the BOM. By assuming worst-case conditions, ESP32 transmitting, all sensors active, and all LEDs on. We created a conservative estimate rather than relying on typical values. After summing all currents and adding design margin, we compared the total to the LM2575D2T-3.3R4G regulator’s 1 A limit.</p>
