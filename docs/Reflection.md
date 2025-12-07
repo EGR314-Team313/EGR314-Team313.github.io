@@ -1,6 +1,4 @@
-<h2 style="color:#E91E63;">Lessons Learned</h2>
-
-<ol style="color:#E91E63; font-size:18px; line-height:1.6;">
+## <h2 style="color:#E91E63;">Lessons Learned</h2>
 
 1. The importance of defining clear product requirements early. We learned that without firm requirements, design decisions quickly become scattered and subjective. Establishing measurable needs for sensing, power, communication, and durability helped guide all later choices and kept the project focused.
 2. How essential it is to validate component compatibility before purchasing. Through design review feedback, we realized that voltage levels, communication protocols, and current limits must be checked together, not separately. This prevented incorrect part selection and ensured smooth integration on the final PCB.
@@ -13,7 +11,9 @@
 9. The importance of clear and consistent message structures in software. We learned that even small inconsistencies in message formatting can break communication. Standardizing field order, data types, and error handling significantly improved the communication diagrams and made the system easier to debug.
 10. The value of continuous feedback and design reviews. Design reviews helped us identify weaknesses early, including missing safety factors, unclear architecture, and unrealistic expectations. Incorporating this feedback made our design more professional, technically defensible, and aligned with industry expectations.
 
-## Top 5 Recommendations for Future Students
+<hr style="border: 1px solid #E91E63;">
+
+## <h2 style="color:#E91E63;">Top 5 Lessons Learned</h2>
 
 1. Start learning basic embedded programming skills. Especially Arduino or ESP32 development, because having a foundation in microcontroller coding will make the project workload much easier to manage.
 2. Familiarize yourself with reading electronic component datasheets early, since understanding pinouts, voltage requirements, and communication protocols becomes essential for selecting parts and designing your schematics.
@@ -21,7 +21,9 @@
 4. Learn how to use GitHub properly. Including repositories, commits, branches, and Markdown, because documentation and code organization are major parts of the course.
 5. Manage your time intentionally by breaking the project into weekly goals, since waiting until the last minute quickly leads to burnout and prevents the team from completing a functional prototype.
 
-## Version 2.0 Communication A Architecture Design
+<hr style="border: 1px solid #E91E63;">
+
+## <h2 style="color:#E91E63;">Version 2.0 Communication A Architecture Design</h2>
 
 If we were to develop a Version 2.0 of our communication architecture, several improvements could be made to increase reliability, expand functionality, and make the system easier to debug and maintain. Our current design uses ESP-NOW to send sensor data between devices, which works well for short-range broadcasts but has limitations when scaling, logging, or integrating with external systems. In a Version 2.0 system, we would move toward a more structured and modular communication architecture that supports multiple message types, error detection, and long-term data handling. This would allow our weather-station network to operate more reliably in remote wildfire-prone areas where consistent communication and robustness are essential.
 One of the first improvements would be implementing a more organized message structure. Currently, our messages send raw sensor data in a simple format. A Version 2.0 system would incorporate message headers, device IDs, timestamps, and CRC checksums for error detection. This makes the architecture more scalable and easier to decode, especially if many devices broadcast simultaneously. We would also divide our software into clearer modules—such as sensing, message formatting, transmission, reception, and data handling—so that each subsystem operates independently. This modularity would support easier debugging and allow individual components to be upgraded without affecting the entire system.
