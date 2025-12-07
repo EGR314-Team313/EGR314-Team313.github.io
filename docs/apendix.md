@@ -57,7 +57,7 @@ title: Apendix
 <hr style="border: 1px solid #E91E63;">
 
 ## <span style="color:#E91E63; font-weight:700;">Team Communications</span>
-| Name     | First Choice Communication | Second Choice Communication | Third Choice Communication |
+| <span style="color:#E91E63;">Name</span>     | <span style="color:#E91E63;">First Choice Communication</span> | <span style="color:#E91E63;">Second Choice Communication</span> | <span style="color:#E91E63;">Third Choice Communication</span> |
 |----------|----------------------------|-----------------------------|----------------------------|
 | Luke Jeffs |             Discord               |               Phone              |            Email                |
 | Daniel Resnick |            Discord                |              Phone               |           Email                 |
@@ -67,7 +67,7 @@ title: Apendix
 <hr style="border: 1px solid #E91E63;">
 
 ## <span style="color:#E91E63; font-weight:700;">Roles & Responsibilities</span>
-| Role             | Duties                                                                                           |
+| <span style="color:#E91E63;">Role</span>             | <span style="color:#E91E63;">Duties</span>                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------|
 | Meeting leader-Sophie Bryant| Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting |
 | Meeting recorder-Luke Jeffs| Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned |
