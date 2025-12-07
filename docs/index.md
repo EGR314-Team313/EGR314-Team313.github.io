@@ -1,17 +1,18 @@
 ---
 title: Welcome
+
 tags:
 - tag1
 - tag2
 ---
 
-## Team 313
+## <span style="color:#E91E63;">Team 313</span>
 
-Team Members
--Sophie Bryant
--Tyler Dean
--Luke Jeffs
--Daniel Resnick
+### <span style="color:#E91E63;">Team Members</span>
+- Sophie Bryant  
+- Tyler Dean  
+- Luke Jeffs  
+- Daniel Resnick  
 
 <img width="708" height="939" alt="Screenshot 2025-12-06 204444" src="https://github.com/user-attachments/assets/55c07f21-7242-4321-b979-f71f10161641" />
 
