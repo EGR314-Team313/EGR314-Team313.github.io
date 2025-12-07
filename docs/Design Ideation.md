@@ -11,7 +11,6 @@ title: Design Ideation
 
 During class, our team used Microsoft Whiteboard to brainstorm ideas using sticky notes, ultimately generating around 100 unique concepts. The goal of this session was to propose any features or requirements that could support our user needs without limiting creativity. Once all ideas were collected, we organized them into three main categories to better understand our design direction. These categories included sensing capabilities, structural and build features, and potential power solutions for the device.
 
-
 ## Unsorted list
 <img width="644" height="690" alt="unsorted" src="https://github.com/user-attachments/assets/17806895-800c-4107-a58e-11815951c013" />
 
