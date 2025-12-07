@@ -9,8 +9,7 @@ title: Design Ideation
 | Luke Jeffs |  Testing & Quality Lead | Handles troubleshooting, debugging, and verifying requirements |
 | Daniel Resnick | Design & Research Lead | Handles brainstorming, user needs, diagrams, and documentation |
 
-During class time we came up with ideas on sticky notes in Microsoft Whiteboard. We came up with a total of 100 sticky notes. The objective of this brainstorming session was to come up with any features or requirements that fit our user needs. After generating all of these ideas we grouped them into 3 categories. The categories were sensing, build features, and how the design would be powered. 
-
+During class, our team used Microsoft Whiteboard to brainstorm ideas using sticky notes, ultimately generating around 100 unique concepts. The goal of this session was to propose any features or requirements that could support our user needs without limiting creativity. Once all ideas were collected, we organized them into three main categories to better understand our design direction. These categories included sensing capabilities, structural and build features, and potential power solutions for the device.
 
 
 ## Unsorted list
