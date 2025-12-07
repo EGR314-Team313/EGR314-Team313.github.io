@@ -1,4 +1,6 @@
-## Lessons Learned
+<h2 style="color:#E91E63;">Lessons Learned</h2>
+
+<ol style="color:#E91E63; font-size:18px; line-height:1.6;">
 
 1. The importance of defining clear product requirements early. We learned that without firm requirements, design decisions quickly become scattered and subjective. Establishing measurable needs for sensing, power, communication, and durability helped guide all later choices and kept the project focused.
 2. How essential it is to validate component compatibility before purchasing. Through design review feedback, we realized that voltage levels, communication protocols, and current limits must be checked together, not separately. This prevented incorrect part selection and ensured smooth integration on the final PCB.
