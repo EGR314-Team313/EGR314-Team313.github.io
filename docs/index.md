@@ -10,10 +10,13 @@ tags:
 
 ### <span style="color:#E91E63; font-weight:700;">Team Members</span>
 
-- <span style="color:#E91E63;">Sophie Bryant</span>
-- <span style="color:#E91E63;">Tyler Dean</span>
-- <span style="color:#E91E63;">Luke Jeffs</span>
-- <span style="color:#E91E63;">Daniel Resnick</span>
+<span style="color:#E91E63;">Sophie Bryant</span>
+
+<span style="color:#E91E63;">Tyler Dean</span>
+
+<span style="color:#E91E63;">Luke Jeffs</span>
+
+<span style="color:#E91E63;">Daniel Resnick</span>
 
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
