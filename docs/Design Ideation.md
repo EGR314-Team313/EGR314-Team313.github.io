@@ -61,5 +61,12 @@ Given the loss of a group member early on after our ideation phase, we were able
 
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
+## <h2 style="color:#E91E63; font-weight:700;">Design Evolution</h2>
+
+Our design was created with a large focus on simplicity from the beginning in order to allow us to focus on creating something robust and cost effective. The LEDs used were always intended to be an indicator for when a threshold deemed dangerous was passed, and this can function with any included sensors, as long as the sensors are given a predetermined value that when passed, alerts the device to issue a warning to those nearby, and record that the value was in fact exceeded.
+
+
+<hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
+
 ## <h2 style="color:#E91E63; font-weight:700;">Presentation Video</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajgPYowXUoI?si=FGtVEHt6QkkVXJUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
