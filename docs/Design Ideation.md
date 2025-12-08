@@ -49,15 +49,15 @@ The concept sketch satisfies the needs of wildfire prevention in many ways. Ther
 
 ## <h2 style="color:#E91E63; font-weight:700;">Functionality</h2>
 
-There will be 4 main areas of functionlity split across each member of the team.
+There were initially 4 planned areas of functionality in our design:
 
 
-1. Sensing
-2. Acuator
-3. Communication
-4. Microcontroller
+1. Sensing - Daniel Resnick & Sophie Bryant
+2. Acuator - Luke Jeffs
+3. Communication - Cut due to changes to the team
+4. Microcontroller -Tyler Dean
 
-In this early stage we have not picked our components yet or decided who on the team is designing each area. Durability is huge with our proposed design because it will be outside and exposed to the elements. 
+Given the loss of a group member early on after our ideation phase, we were able to keep moving without major impediment, but cut out the Communication area as a major subsystem.  
 
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
