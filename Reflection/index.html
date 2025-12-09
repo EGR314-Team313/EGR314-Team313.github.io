@@ -956,7 +956,7 @@
 
 </p><hr style="border: 1px solid #E91E63;">
 
-## <h2 style="color:#E91E63;">Version 2.0 Communication A Architecture Design</h2>
+## <h2 style="color:#E91E63;">Version 2.0 Communication amd Architecture Design</h2>
 
 If we were to develop a Version 2.0 of our communication architecture, several improvements could be made to increase reliability, expand functionality, and make the system easier to debug and maintain. Our current design uses ESP-NOW to send sensor data between devices, which works well for short-range broadcasts but has limitations when scaling, logging, or integrating with external systems. In a Version 2.0 system, we would move toward a more structured and modular communication architecture that supports multiple message types, error detection, and long-term data handling. This would allow our weather-station network to operate more reliably in remote wildfire-prone areas where consistent communication and robustness are essential.
 One of the first improvements would be implementing a more organized message structure. Currently, our messages send raw sensor data in a simple format. A Version 2.0 system would incorporate message headers, device IDs, timestamps, and CRC checksums for error detection. This makes the architecture more scalable and easier to decode, especially if many devices broadcast simultaneously. We would also divide our software into clearer modules—such as sensing, message formatting, transmission, reception, and data handling—so that each subsystem operates independently. This modularity would support easier debugging and allow individual components to be upgraded without affecting the entire system.
