@@ -106,7 +106,7 @@ Each chosen component directly meets or exceeds the needs of the product. The te
 
 ## <span style="color:#E91E63; font-weight:700;">Power Budget</span>
 
-
+![Power Budget](path/to/your/image.jpg)
 
 [power budget - Power Budget.pdf](https://github.com/user-attachments/files/24043609/power.budget.-.Power.Budget.pdf)
 
