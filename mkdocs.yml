@@ -27,6 +27,12 @@ theme:
 #    - navigation.expand
 #    - navigation.instant # doesn't work that well
 
+  nav:
+      - Welcome: index.md
+      - 'Team Organization': Team-Organization.md
+      - 'Design Ideation': Design Ideation.md
+      - 'Block Diagram' : Block-Diagram.md
+
 markdown_extensions:
   - attr_list #add attributes using curly brackets to images, see https://squidfunk.github.io/mkdocs-material/reference/images/
   - md_in_html # see https://squidfunk.github.io/mkdocs-material/reference/images/
