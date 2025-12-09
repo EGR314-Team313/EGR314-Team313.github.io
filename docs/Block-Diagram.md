@@ -32,5 +32,5 @@ Our team started with a simple idea of “just sending sensor values,” then it
 1. Changed the way data was broadcasted: from wifi now to an MQTT server
 2. Made code simpler and easier to program
 3. Changed the number of times green led was flashed when a threshold was met
-4. Optimzed code to reflect data more frequently
+4. Optimized code to reflect data more frequently
 5. Increased the number of variables to temperature, pressure, and humidity
