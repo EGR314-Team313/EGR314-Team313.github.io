@@ -19,6 +19,8 @@ title: Schematic and PCB
 
 ![Fall 25 PCB Team Board Back](https://github.com/user-attachments/assets/4b8de768-e719-4745-80f7-4e29d8d3a393)
 
+[Gerber Files](https://github.com/user-attachments/files/24048634/GerberFilesTeam313_V4.zip)
+
 <hr style="border: 1px solid #E91E63;">
 
 ### <span style="color:#E91E63; font-weight:700;">Functionality</span>
