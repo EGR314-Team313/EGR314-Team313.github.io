@@ -1,14 +1,7 @@
 ---
 title: Design Ideation
 ---
-## <h1 style="color:#E91E63;">Team Roles</h1>
-
-| <span style="color:#E91E63;">Name</span> | <span style="color:#E91E63;">Team Role</span> | <span style="color:#E91E63;">Description</span> |
-| ---- | --------- | ----------- |
-| Sophie Bryant | Team Lead & Coordinator | Oversees deadlines, communication, and ensures tasks align with goals |
-| Tyler Dean | Technical & Implementation Lead | Focuses on coding, circuitry, or building |
-| Luke Jeffs |  Testing & Quality Lead | Handles troubleshooting, debugging, and verifying requirements |
-| Daniel Resnick | Design & Research Lead | Handles brainstorming, user needs, diagrams, and documentation |
+## <h1 style="color:#E91E63;">Brainstorming</h1>
 
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
