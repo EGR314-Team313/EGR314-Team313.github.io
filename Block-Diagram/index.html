@@ -576,7 +576,7 @@
         <li class="md-nav__item">
   <a href="#top-5-biggest-changes-to-the-software-design" class="md-nav__link">
     <span class="md-ellipsis">
-      Top 5 Biggest Changes to the Software Design
+      Top 5 Biggest Changes To The Software Design
     </span>
   </a>
   
@@ -938,7 +938,7 @@
         <li class="md-nav__item">
   <a href="#top-5-biggest-changes-to-the-software-design" class="md-nav__link">
     <span class="md-ellipsis">
-      Top 5 Biggest Changes to the Software Design
+      Top 5 Biggest Changes To The Software Design
     </span>
   </a>
   
@@ -987,7 +987,15 @@ In the communication sequence diagram, we model the interactions between the rem
 Our team started with a simple idea of “just sending sensor values,” then iterated as we mapped requirements from the user-needs analysis. We decided each message must contain at least: a node ID, a timestamp or sequence number, the sensor readings (temperature, pressure, humidity, smoke / heat indicators), and health information such as battery level and internal error flags. Early on we discussed sending JSON strings for readability, but we realized this would increase packet size, airtime, and power consumption. We therefore switched to a fixed-length binary structure with predefined byte offsets for each field. This choice makes parsing faster and more deterministic on both the remote node and gateway. We also added a small checksum or CRC field to detect corrupted messages, which is important in wildfire environments with possible interference. Overall, the message structure is a compromise between clarity, robustness, and efficiency, and it directly supports the functions depicted in our communication sequence diagram.</p>
 <hr style="border: 1px solid #E91E63;">
 
-<h2 id="top-5-biggest-changes-to-the-software-design">Top 5 Biggest Changes to the Software Design</h2>
+<h2 id="top-5-biggest-changes-to-the-software-design"><span style="color:#E91E63; font-weight:700;">Top 5 Biggest Changes To The Software Design</span></h2>
+<p></p>
+<ol>
+<li>Changed the way data was broadcasted: from wifi now to an MQTT server</li>
+<li>Made code simpler and easier to program</li>
+<li>Changed the number of times green led was flashed when a threshold was met</li>
+<li>Optimzed code to reflect data more frequently</li>
+<li>Increased the number of variables to temperature, pressure, and humidity</li>
+</ol>
 
 
 
