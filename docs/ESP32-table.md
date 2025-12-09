@@ -7,7 +7,6 @@ title: ESP32 Table
 | Model                                         | ESP32-S3-WROOM-1-N4      | 
 | Product Page URL                              | [DigiKey](https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TS1117BCW33-RPG/7370078)      | 
 | Datasheet URL(s)                              | [Datasheet](https://services.taiwansemi.com/storage/resources/datasheet/TS1117B_I2405.pdf)      | 
-| Application Notes URL(s)                      | ?      | 
 | Vendor link                                   | [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)      | | 
 | Code Examples                                 | [Code Examples](https://github.com/espressif/esp-idf/tree/master/examples)      | 
 | External Resources URL(s)                     | [External Resources](https://esp32io.com/tutorials/esp32-code-structure)      | 
@@ -26,8 +25,9 @@ title: ESP32 Table
 | ADC        | 2           | 0      | not needed                              |
 | UART       | 3           | 2      | GPIO43,GPIO44,GPIO17,GPIO18                              |
 | SPI        | 4           | 4      | not needed                              |
-| I2C        | ?           | ?      | ?                              |
-| PWM        | ?           | ?      | ?                              |
-| ICSP       | ?           | 1      | ?                              |
-| ...        | ...         | ...    | ...                            |
+| I2C        | 45           | 3      | *                              |
+| PWM        | 22           | 0      | 0                              |
+| ICSP       | 0           | 0      | 0                              |
+![ESP32-Ant-Pin-Layout](https://github.com/user-attachments/assets/612a7998-ac6e-4957-8208-3cedf78460b3)
+![ESP32-Pin-ant-Diagram](https://github.com/user-attachments/assets/a00cffd0-e302-413d-9e6e-0f130198f943)
 
