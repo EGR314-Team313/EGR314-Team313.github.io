@@ -6,7 +6,9 @@ tags:
 - tag2
 ---
 
-## <span style="color:#E91E63; font-weight:700;">Team 313</span>
+## <span style="color:#E91E63; font-weight:700;">Team 313: FireBox</span>
+
+### <span style="color:#E91E63;">Arizona State University - EGR 314 - Professor Suo</span>
 
 ### <span style="color:#E91E63; font-weight:700;">Team Members</span>
 
@@ -24,14 +26,17 @@ tags:
 
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
-### <span style="color:#E91E63;">Arizona State University - EGR 314 - Professor Suo</span>
-
 Our project focuses on creating a network of remote weather-monitoring devices to help prevent wildfires. These stations will collect key environmental data such as temperature, humidity, wind, and smoke levels. The goal is to detect early signs of wildfire ignition before the situation becomes unmanageable. Each device will also store local weather information to help researchers better understand the conditions that lead to wildfire outbreaks. Our system is designed for organizations involved in wildfire management and for remote communities in high-risk areas. By providing early warnings and valuable environmental data, our device aims to improve safety, response time, and overall wildfire prevention efforts.
 
 <hr style="border:2px solid #E91E63; width:60%; margin:30px 0;">
 
 
 ## <span style="color:#E91E63; font-weight:700;">Table of Contents</span>
-### [Team Organization](second-page.md) 
-### [Design Ideation](Design-Diagram.md) 
+### [Team Organization](Team-Organization.md) 
+### [Design Ideation](Design-Ideation.md) 
 ### [Block Diagram](Block-Diagram.md) 
+### [Component Selection](Component-Selection) 
+### [Board Design](Board-Design.md) 
+### [Reflection](Reflection.md) 
+
+
