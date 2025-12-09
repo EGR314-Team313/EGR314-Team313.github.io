@@ -1,6 +1,11 @@
 ---
 title: Team Organization
+nav_order: 1
 ---
+  
+    
+   
+
 
 
 ## <span style="color:#E91E63; font-weight:700;">Team Charter</span>
