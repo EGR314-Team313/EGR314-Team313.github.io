@@ -104,6 +104,11 @@ Each chosen component directly meets or exceeds the needs of the product. The te
 
 [Team 313 Bill of Materials.xlsx - Sheet1.pdf](https://github.com/user-attachments/files/22654392/Team.313.Bill.of.Materials.xlsx.-.Sheet1.pdf)
 
+## <span style="color:#E91E63; font-weight:700;">Power Budget</span>
+
+
+
+[power budget - Power Budget.pdf](https://github.com/user-attachments/files/24043609/power.budget.-.Power.Budget.pdf)
 
 We used the power budget to estimate our system’s total current draw by listing every active component, pulling its maximum current from the datasheet, and multiplying it by the quantity shown in the BOM. By assuming worst-case conditions, ESP32 transmitting, all sensors active, and all LEDs on. We created a conservative estimate rather than relying on typical values. After summing all currents and adding design margin, we compared the total to the LM2575D2T-3.3R4G regulator’s 1 A limit.
 
