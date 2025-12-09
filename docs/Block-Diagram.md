@@ -26,5 +26,11 @@ Our team started with a simple idea of “just sending sensor values,” then it
 
 <hr style="border: 1px solid #E91E63;">
 
-## Top 5 Biggest Changes to the Software Design 
+## <span style="color:#E91E63; font-weight:700;">Top 5 Biggest Changes To The Software Design
+</span>
 
+1. Changed the way data was broadcasted: from wifi now to an MQTT server
+2. Made code simpler and easier to program
+3. Changed the number of times green led was flashed when a threshold was met
+4. Optimzed code to reflect data more frequently
+5. Increased the number of variables to temperature, pressure, and humidity
