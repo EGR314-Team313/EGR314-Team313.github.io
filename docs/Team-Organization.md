@@ -25,3 +25,16 @@ We wanted to create a compact, reliable, and easy-to-operate device that can acc
 
 ## <span style="color:#E91E63; font-weight:700;">Problem Statement</span>
 Current low cost sensing solutions often lack accuracy, real-time feedback, or the ability to integrate multiple environmental measurements in a single platform. These limitations make it difficult for users to monitor changing conditions or receive immediate indicators when thresholds are exceeded. We needed to develop a compact, battery-powered system that reliably gathers temperature and pressure data, processes the information through a microcontroller, and communicates results visually and wirelessly as needed. The solution must be accurate, efficient, and easy to use while meeting the technical constraints of power, size, and manufacturability.
+
+<hr style="border: 1px solid #E91E63;">
+
+## <span style="color:#E91E63; font-weight:700;">Team Member Contributions</span>
+
+Tyler Dean: Worked on designing schematic and overall design and layout of PCB. Soldered parts to PCB with heat gun. Tested the continuity and checked all electronics of final board. Helped to create code and debugged issues with the snap programmer. Updated website throughout the semester. Created individual shcematic design of subsytem.
+
+Dan Resnick: Also worked on designing schematic and overall design layout of PCB. Routed all wiring in the PCB design and creeated ground planes on PCB layers. Assisted with soldering parts to board with heat gun. Helped to create code and debug it. Worked on all hardware and software troubleshooting. Updated the website throughout the semester. Created individual shcematic design of subsytem.
+
+Luke Jeffs: Created Individual design of subsystem. Printed and designed final 3D printed case for PCB. Created the Innovation showcase poster. Updated website throughout the semester. 
+
+Sophie Bryant: Created Individual design of subsystem. Helped with the design of innovation showcase poster. Worked on final report and updated website throughout the semester. 
+
